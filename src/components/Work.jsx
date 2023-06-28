@@ -37,6 +37,7 @@ const Work = () => {
           Work/Resume
         </a>
       </h1>
+      <div className="mb-8"></div>
       {data.map((item, idx) => (
         <WorkItem
           key={idx}
