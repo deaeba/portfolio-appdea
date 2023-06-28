@@ -1,10 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -45,21 +40,14 @@ const Main = () => {
               <FaTwitter className="cursor-pointer" size={20} />
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="https://github.com/deaeba"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebookF className="cursor-pointer" size={20} />
+              <FaGithub className="cursor-pointer" size={20} />
             </a>
             <a
-              href="https://www.instagram.com/deikoeb/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram className="cursor-pointer" size={20} />
-            </a>
-            <a
-              href="hhttps://www.linkedin.com/in/dea-ebanoidze-969962271/"
+              href="https://www.linkedin.com/in/dea-ebanoidze-969962271/"
               target="_blank"
               rel="noopener noreferrer"
             >
