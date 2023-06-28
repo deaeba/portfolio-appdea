@@ -15,13 +15,15 @@ const ProjectItem = ({ img, title, infoHref, imgHref }) => {
         />
       </a>
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2xl font-bold text-white tracking-wider text-center">
+        <h3 className="text-2xl font-bold text-[#001b5e] tracking-wider text-center">
           {title}
         </h3>
         {title === "Evogym App" ? (
-          <p className="pb-4 pt-2 text-white text-center">React TypeScript</p>
+          <p className="pb-4 pt-2 text-[#001b5e] text-center">
+            React TypeScript
+          </p>
         ) : (
-          <p className="pb-4 pt-2 text-white text-center">Next Js</p>
+          <p className="pb-4 pt-2 text-[#001b5e] text-center">Next Js</p>
         )}
         <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
           <a href={infoHref} onClick={() => handleRedirect(infoHref)}>
