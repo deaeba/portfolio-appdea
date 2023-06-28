@@ -28,7 +28,14 @@ const Work = () => {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">
-        <a href="#work">Work</a>
+        <a
+          href="https://docs.google.com/document/d/1S5h3DOab4OLNxSU2CRAWArPJs7yEY4kHCavwLAUdmUw/edit?usp=sharing"
+          className="inline-block bg-[#001b5e]  text-white px-4 py-2 rounded-md hover:bg-[#00163a]"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Work/Resume
+        </a>
       </h1>
       {data.map((item, idx) => (
         <WorkItem
